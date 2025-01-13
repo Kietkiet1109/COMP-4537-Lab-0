@@ -1,0 +1,56 @@
+/* ChatGPT use to make CSS of the UI */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.inputContainer {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.inputContainer label {
+    display: block;
+}
+
+.inputContainer input[type="number"] {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.inputContainer input[type="button"] {
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#buttonContainer {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+button {
+    height: 5em;
+    width: 10em;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+}
