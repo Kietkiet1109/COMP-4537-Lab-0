@@ -126,6 +126,7 @@ class MemoryGame {
     clearButtons() {
         this.ui.getButtonContainer().innerHTML = '';
         this.buttons = [];
+        this.clickedButtons = [];
     }
 
     // Create buttons based on the number of buttons specified by the user
