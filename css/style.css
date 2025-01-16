@@ -1,6 +1,7 @@
 /* ChatGPT use to make CSS of the UI */
 
 body {
+    font-size: 15px;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -31,7 +32,6 @@ body {
 .inputContainer input[type="button"] {
     padding: 5px 10px;
     margin-left: 10px;
-    font-size: 15px;
     border: 1px solid gray;
     border-radius: 5px;
     cursor: pointer;
@@ -52,5 +52,4 @@ button {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    font-size: 20px;
 }
